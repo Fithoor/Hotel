@@ -1,0 +1,118 @@
+@media screen and (max-width:900px) {
+    .section_1{    
+        background-image: url(mobile/image-header.jpg);
+        
+    
+    }
+    #check{
+        position: absolute;
+        visibility: hidden;
+    }
+    .stikey{
+        top: 0rem;
+        right: 0rem;
+        float: right;
+        position: fixed;
+        
+        
+    }
+    #open, #close{
+        box-sizing: content-box;
+        visibility: visible;
+        position: absolute;
+        color: white;
+        top: 3rem;
+        right: 3rem;
+        background-color: rgb(61, 190, 255);
+        padding: 1rem 1rem;
+        border-radius: 1rem;
+    }
+    
+    
+    
+    #btns{
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(255, 251, 248);
+        position: fixed;
+        height: 60vh;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 6rem;
+        transform: translatex(-100rem);
+        transition: all .5s;
+     
+    }
+    
+    header ul li{
+        width: 15rem;
+        padding: 1rem 2rem;
+        margin: 1rem 0rem;
+        background-color: rgb(255, 211, 8);
+        text-align: center;
+        border-radius: 100px;
+        
+        
+    }
+    header ul li a{
+        color: #000;
+    }
+    header ul li a:hover{
+        background-color: rgb(255, 211, 8);
+        color: #000;
+        
+    }
+    header ul li a:active{
+        background-color: none;
+        color: #000;
+        
+    }
+    #check:checked ~ #btns{
+        transform: translatex(0);
+       
+    }
+    
+    .egg-content{
+        padding: 0rem 2rem;
+    }
+    .egg-content h2{
+        font-size: 4.1rem;
+        margin-bottom: 1.5vw;
+    }
+    .egg-content p{
+        line-height: 3rem;
+        font-size: 2rem;
+        margin-bottom: 1.5vh;
+        padding-right: 5%;
+    }
+    .glass-content{
+        padding: 0rem 2rem;
+    }
+    
+    .glass-content h2{
+        font-size: 4.1rem;
+        margin-bottom: 1.5vw;
+        
+    }
+    .glass-content p{
+        line-height: 3rem;
+        font-size: 2rem;
+        margin-bottom: 1.5vh;
+        padding-right: 5%;
+    }
+    .section_4 h3{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+    .section_4 p{
+        font-size: 1.8rem;
+        max-width: 38rem;
+        margin-bottom: 3rem;
+        line-height: 2.5rem;
+    }
+
+
+
+
+    }

@@ -1,0 +1,200 @@
+@media screen and (max-width:800px) {
+
+    .section_2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        
+    }
+    .egg-content{
+        width: 100%;
+        box-sizing: content-box;
+        order: 2;
+       width: auto;
+       padding: 0;
+    
+    }
+    .mian{
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      align-items: center;
+        width: 100%;
+        padding: 0;
+    }
+    
+    
+    .egg-content h2{
+        text-align: center;
+    }
+    .egg-content p{
+        padding: 0;
+        text-align: center;
+        max-width: 34rem;
+        font-size: 2rem;
+        line-height: 2.6rem;
+       margin-left: 2rem ;
+        
+    }
+    .egg-content a{
+        text-align: center;
+    }
+  
+    .egg{
+        width: 100%;
+        order: initial;
+        margin-bottom: 4rem;
+    }
+    .section_3{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        
+    }
+    .glass-content{
+        width: 100%;
+        box-sizing: content-box;
+        order: 2;
+       width: auto;
+       padding: 0;
+    
+    }
+    .mian{
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      align-items: center;
+        width: 100%;
+        padding: 0;
+    }
+    
+    
+    .glass-content h2{
+        text-align: center;
+    }
+    .glass-content p{
+        padding: 0;
+        text-align: center;
+        max-width: 32rem;
+        font-size: 2rem;
+        line-height: 2.8rem;
+       margin-left: 2rem ;
+       margin-bottom: 2rem;
+        
+    }
+    .glass-content a{
+        text-align: center;
+    }
+  
+    .glass{
+        width: 100%;
+        order: initial;
+        margin-bottom: 4rem;
+    }
+
+    
+.section_4{
+    flex-direction: column;
+    height: fit-content;
+}
+    .left{
+    width: 100%;
+    height: 50rem;
+    }
+    .right{ 
+    width: 100%;
+    height: 50rem;
+    }
+    .section_4 h3{
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    }
+    .section_4 p{
+    font-size: 2rem;
+    max-width: 43rem;
+    }
+
+    .section_5 h2{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    }
+.comments{
+   flex-direction: column;
+}
+    .tan{
+    width: 100%;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    }
+    .tan img{
+    height: 110px;
+    margin-bottom: 3rem;
+    }
+    .tan p{
+    margin-bottom: 2rem;
+    line-height: 3rem;
+    max-width: 37rem;
+    font-size: 2rem;
+    }
+    .tan h3{
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    }
+    .caption{
+    font-size: 2rem;
+    }
+
+.images{
+  display:grid;
+  box-sizing: border-box;
+width: 100%;
+height: 99vw;
+grid-template-columns: auto auto;
+}
+.milk{
+    width: 100%;
+  }
+  .orange{
+      width: 100%;
+
+  }
+  .cone{
+      width: 100%;
+    
+     background-size: cover;
+  }
+  .sugarcube{
+      width: 100%;
+
+  }
+
+
+  .section_6{
+    height: fit-content;
+}
+.section_6 h2{
+    margin: 3rem;
+    font-size: 4rem;
+}
+.section_6 ul{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.section_6 ul li{
+    margin: 0rem 3rem 2rem;
+    
+}
+.section_6 ul li a{
+    font-size: 2.5rem;
+ 
+}
+
+
+}
